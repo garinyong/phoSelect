@@ -14,6 +14,15 @@
 		496F15251A4BC00800A1537F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496F15241A4BC00800A1537F /* Images.xcassets */; };
 		496F15281A4BC00800A1537F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 496F15261A4BC00800A1537F /* LaunchScreen.xib */; };
 		496F15341A4BC00800A1537F /* phoSelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F15331A4BC00800A1537F /* phoSelectTests.m */; };
+		496F15461A4BF94E00A1537F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496F15451A4BF94E00A1537F /* AddressBook.framework */; };
+		496F15781A4C14A700A1537F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F156F1A4C14A700A1537F /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		496F15791A4C14A700A1537F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F15711A4C14A700A1537F /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		496F157A1A4C14A700A1537F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F15731A4C14A700A1537F /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		496F157B1A4C14A700A1537F /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F15751A4C14A700A1537F /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		496F157C1A4C14A700A1537F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F15771A4C14A700A1537F /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		496F157E1A4C15C800A1537F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 496F157D1A4C15C800A1537F /* libsqlite3.dylib */; };
+		496F15811A4C17EB00A1537F /* sqlTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F15801A4C17EB00A1537F /* sqlTool.m */; };
+		496F15841A4C186200A1537F /* ppa.db in Resources */ = {isa = PBXBuildFile; fileRef = 496F15831A4C186200A1537F /* ppa.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,21 @@
 		496F152D1A4BC00800A1537F /* phoSelectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phoSelectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		496F15321A4BC00800A1537F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		496F15331A4BC00800A1537F /* phoSelectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = phoSelectTests.m; sourceTree = "<group>"; };
+		496F15451A4BF94E00A1537F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		496F156E1A4C14A700A1537F /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		496F156F1A4C14A700A1537F /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		496F15701A4C14A700A1537F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		496F15711A4C14A700A1537F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		496F15721A4C14A700A1537F /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		496F15731A4C14A700A1537F /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		496F15741A4C14A700A1537F /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		496F15751A4C14A700A1537F /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		496F15761A4C14A700A1537F /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		496F15771A4C14A700A1537F /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		496F157D1A4C15C800A1537F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		496F157F1A4C17EB00A1537F /* sqlTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlTool.h; sourceTree = "<group>"; };
+		496F15801A4C17EB00A1537F /* sqlTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sqlTool.m; sourceTree = "<group>"; };
+		496F15831A4C186200A1537F /* ppa.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ppa.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496F157E1A4C15C800A1537F /* libsqlite3.dylib in Frameworks */,
+				496F15461A4BF94E00A1537F /* AddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				496F15161A4BC00800A1537F /* phoSelect */,
+				496F15851A4CFC2100A1537F /* Framework */,
 				496F15301A4BC00800A1537F /* phoSelectTests */,
 				496F15151A4BC00800A1537F /* Products */,
 			);
@@ -81,6 +108,8 @@
 		496F15161A4BC00800A1537F /* phoSelect */ = {
 			isa = PBXGroup;
 			children = (
+				496F15821A4C186200A1537F /* dbb */,
+				496F156D1A4C14A700A1537F /* fmdb */,
 				496F151B1A4BC00800A1537F /* AppDelegate.h */,
 				496F151C1A4BC00800A1537F /* AppDelegate.m */,
 				496F151E1A4BC00800A1537F /* ViewController.h */,
@@ -89,6 +118,8 @@
 				496F15241A4BC00800A1537F /* Images.xcassets */,
 				496F15261A4BC00800A1537F /* LaunchScreen.xib */,
 				496F15171A4BC00800A1537F /* Supporting Files */,
+				496F157F1A4C17EB00A1537F /* sqlTool.h */,
+				496F15801A4C17EB00A1537F /* sqlTool.m */,
 			);
 			path = phoSelect;
 			sourceTree = "<group>";
@@ -117,6 +148,40 @@
 				496F15321A4BC00800A1537F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		496F156D1A4C14A700A1537F /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				496F156E1A4C14A700A1537F /* FMDatabase.h */,
+				496F156F1A4C14A700A1537F /* FMDatabase.m */,
+				496F15701A4C14A700A1537F /* FMDatabaseAdditions.h */,
+				496F15711A4C14A700A1537F /* FMDatabaseAdditions.m */,
+				496F15721A4C14A700A1537F /* FMDatabasePool.h */,
+				496F15731A4C14A700A1537F /* FMDatabasePool.m */,
+				496F15741A4C14A700A1537F /* FMDatabaseQueue.h */,
+				496F15751A4C14A700A1537F /* FMDatabaseQueue.m */,
+				496F15761A4C14A700A1537F /* FMResultSet.h */,
+				496F15771A4C14A700A1537F /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		496F15821A4C186200A1537F /* dbb */ = {
+			isa = PBXGroup;
+			children = (
+				496F15831A4C186200A1537F /* ppa.db */,
+			);
+			path = dbb;
+			sourceTree = "<group>";
+		};
+		496F15851A4CFC2100A1537F /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				496F157D1A4C15C800A1537F /* libsqlite3.dylib */,
+				496F15451A4BF94E00A1537F /* AddressBook.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +265,7 @@
 			files = (
 				496F15231A4BC00800A1537F /* Main.storyboard in Resources */,
 				496F15281A4BC00800A1537F /* LaunchScreen.xib in Resources */,
+				496F15841A4C186200A1537F /* ppa.db in Resources */,
 				496F15251A4BC00800A1537F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +285,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				496F15201A4BC00800A1537F /* ViewController.m in Sources */,
+				496F15811A4C17EB00A1537F /* sqlTool.m in Sources */,
+				496F157A1A4C14A700A1537F /* FMDatabasePool.m in Sources */,
 				496F151D1A4BC00800A1537F /* AppDelegate.m in Sources */,
+				496F157B1A4C14A700A1537F /* FMDatabaseQueue.m in Sources */,
 				496F151A1A4BC00800A1537F /* main.m in Sources */,
+				496F15781A4C14A700A1537F /* FMDatabase.m in Sources */,
+				496F157C1A4C14A700A1537F /* FMResultSet.m in Sources */,
+				496F15791A4C14A700A1537F /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +351,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iOS Development: bin chen (668VF56L6S)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -320,6 +393,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iOS Development: bin chen (668VF56L6S)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -342,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iOS Development: bin chen (668VF56L6S)";
 				INFOPLIST_FILE = phoSelect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iOS Development: bin chen (668VF56L6S)";
 				INFOPLIST_FILE = phoSelect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +487,7 @@
 				496F15391A4BC00800A1537F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		496F153A1A4BC00800A1537F /* Build configuration list for PBXNativeTarget "phoSelectTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +496,7 @@
 				496F153C1A4BC00800A1537F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
