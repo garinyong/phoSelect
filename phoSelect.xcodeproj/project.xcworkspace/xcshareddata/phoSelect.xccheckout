@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A7AF3F89-09C0-4B46-A80B-890929D5E99B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>phoSelect</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>67E5B34757F686C518712729158C4EC5AB137F2B</key>
+		<string>https://github.com/garinyong/phoSelect.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>phoSelect.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>67E5B34757F686C518712729158C4EC5AB137F2B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/garinyong/phoSelect.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>67E5B34757F686C518712729158C4EC5AB137F2B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67E5B34757F686C518712729158C4EC5AB137F2B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>phoSelect</string>
+		</dict>
+	</array>
+</dict>
+</plist>
